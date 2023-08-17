@@ -27,10 +27,11 @@ whatch -n 1 nvidia-smi
 命令中`-n`后面的参数表示每隔多少秒刷新一次。
 
 通过进程的pid 查找占用的用户名：
-```s
+```shell
+lsop -p 进程的pid号
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjQwMTY2MV19
+eyJoaXN0b3J5IjpbLTExMDYzMDE0MTVdfQ==
 -->
