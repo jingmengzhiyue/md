@@ -28,10 +28,15 @@ python中的格式化输出方法
 其含义就是，转成解释器可以理解的部分。
 比如，数字，就变成str；str就变成带有引号的str
 在实际实现的时候是调用其内部的__repr__函数进行实现的
-
-另一种格式化输出的方式是使用.format
+```python
+b =  'hello, %r'  %  123
+```
+另一种格式化输出的方式是使用`.format`
+```python
+b =  'hello, {!r}'.format(  '123')
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwMDcxMTk5LC0xMDUxODI0NDU5LDEyMD
-k1OTA3MDgsMTg1OTcyNjkxXX0=
+eyJoaXN0b3J5IjpbMTg3MTU4NzcwMiwtMTA1MTgyNDQ1OSwxMj
+A5NTkwNzA4LDE4NTk3MjY5MV19
 -->
