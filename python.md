@@ -22,7 +22,14 @@ python 中随机抽取一个元素的函数：
 from random import choice
 choice(deck)
 ```
+python中的格式化输出方法
+-   `{!r}`就是使用format语法时候的`%r`。因此，我们只需要关注`%r`就好。
+%r表示的用repr()处理；类似于的%s表示用str()处理一样。
+其含义就是，转成解释器可以理解的部分。
+比如，数字，就变成str；str就变成带有引号的str
+调用其__repr__函数
+类似于直接用解释器或者IPython时候，直接在光标下输入变量，然后敲回车的输出。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTE4MjQ0NTksMTIwOTU5MDcwOCwxOD
-U5NzI2OTFdfQ==
+eyJoaXN0b3J5IjpbLTE3ODU3NDMzMjcsLTEwNTE4MjQ0NTksMT
+IwOTU5MDcwOCwxODU5NzI2OTFdfQ==
 -->
