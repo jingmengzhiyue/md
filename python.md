@@ -38,10 +38,10 @@ b =  'hello, {!r}'.format(  '123')
 __repr__ 和 __str__ 的区别在于，后者是在 str() 函数被使用，或是在用 print 函数打印
 
 一个对象的时候才被调用的，并且它返回的字符串对终端用户更友好。
-如果你只想实现这两个特殊方法中的一个，__repr__ 是更好的选择，因为如果一个对象没
-有 __str__ 函数，而 Python 又需要调用它的时候，解释器会用 __repr__ 作为替代。
+
+如果你只想实现这两个特殊方法中的一个，__repr__ 是更好的选择，因为如果一个对象没有 __str__ 函数，而 Python 又需要调用它的时候，解释器会用 __repr__ 作为替代。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzc1Mzk5NCwxOTk4Nzk1Njc3LDE4Nz
-E1ODc3MDIsLTEwNTE4MjQ0NTksMTIwOTU5MDcwOCwxODU5NzI2
-OTFdfQ==
+eyJoaXN0b3J5IjpbLTE0NDIxNTE0MzQsMTk5ODc5NTY3NywxOD
+cxNTg3NzAyLC0xMDUxODI0NDU5LDEyMDk1OTA3MDgsMTg1OTcy
+NjkxXX0=
 -->
