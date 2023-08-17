@@ -17,6 +17,12 @@ student_info = namedtuple('stud_info','name, id, gender, age, score')
 studinf = student_info(name = 'xiaowang', id = '00001', gender = 'male', age = 22, score = 99)
 print("name:{}, id:{}, gender:{}, age:{}, score:{}".format(studinf.name,studinf.id,studinf.gender,studinf.age,studinf.score))
 ```
+python 中随机抽取一个元素的函数：
+```python 
+from random import choice
+choice(deck)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTU5MDcwOCwxODU5NzI2OTFdfQ==
+eyJoaXN0b3J5IjpbLTEwNTE4MjQ0NTksMTIwOTU5MDcwOCwxOD
+U5NzI2OTFdfQ==
 -->
