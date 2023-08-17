@@ -20,11 +20,17 @@ cp -r /home/packageA/. /home/cp/packageB/
 ```shell
 tar -zxvf example.tar.gz -C /home/user/
 ```
-在训练深度神经网络中通常需要实时查看显卡的占用，这时可以使用
+在训练深度神经网络中通常需要实时查看显卡的占用，这时可以使用以下命令来查看
 ```shell
 whatch -n 1 nvidia-smi
 ```
+命令中`-n`后面的参数表示每隔多少秒刷新一次。
+
+通过进程的pid 查找占用的用户名：
+```s
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2Nzg3OTMwXX0=
+eyJoaXN0b3J5IjpbLTQ5NjQwMTY2MV19
 -->
