@@ -35,8 +35,10 @@ b =  'hello, %r'  %  123
 ```python
 b =  'hello, {!r}'.format(  '123')
 ```
+__repr__ 和 __str__ 的区别在于，后者是在 str() 函数被使用，或是在用 print 函数打印
 
+一个对象的时候才被调用的，并且它返回的字符串对终端用户更友好。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MTU4NzcwMiwtMTA1MTgyNDQ1OSwxMj
-A5NTkwNzA4LDE4NTk3MjY5MV19
+eyJoaXN0b3J5IjpbMTk5ODc5NTY3NywxODcxNTg3NzAyLC0xMD
+UxODI0NDU5LDEyMDk1OTA3MDgsMTg1OTcyNjkxXX0=
 -->
