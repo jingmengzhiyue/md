@@ -1,6 +1,6 @@
 # python
 > Written with [StackEdit](https://stackedit.io/).
-python中有一种特殊的元组叫做命名元组，命名元组可以构建自己的数据结构
+python中有一种特殊的元组叫做命名元组，命名元组可以构建自己的数据结构。python中的namedtuple用以构建只有少数属性但是没有方法的对象
 ```python
 from collections import namedtuple
 # 命名元组对象student_info
@@ -18,5 +18,5 @@ studinf = student_info(name = 'xiaowang', id = '00001', gender = 'male', age = 2
 print("name:{}, id:{}, gender:{}, age:{}, score:{}".format(studinf.name,studinf.id,studinf.gender,studinf.age,studinf.score))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1OTcyNjkxXX0=
+eyJoaXN0b3J5IjpbMTIwOTU5MDcwOCwxODU5NzI2OTFdfQ==
 -->
